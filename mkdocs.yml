@@ -1,0 +1,57 @@
+site_name: Vakzor Enterprise Lab
+site_description: Enterprise Engineering Platform for architecture, DevOps, observability, security, AI, and backend engineering.
+site_author: Ignacio Gomez
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Project:
+    - Engineering Standards: project/engineering-standards.md
+    - Engineering Principles: project/engineering-principles.md
+    - Platform Capabilities: project/platform-capabilities.md
+    - Platform Health: project/platform-health.md
+    - Roadmap: project/roadmap.md
+
+  - Architecture:
+      - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md
+
+  - Research:
+      - RFC-0001 Project Management Tools: research/rfc-0001-project-management-tools.md
+
+  - Capabilities:
+      - Documentation Platform: capabilities/documentation-platform.md
+      - Project Management Platform: capabilities/project-management-platform.md
+      - Container Platform: capabilities/container-platform.md
+      - Database Platform: capabilities/database-platform.md
+      - Cache Platform: capabilities/cache-platform.md
+      - Object Storage Platform: capabilities/object-storage-platform.md
+      - Messaging Platform: capabilities/messaging-platform.md
+      - Observability Platform: capabilities/observability-platform.md
+      - Security Platform: capabilities/security-platform.md
+      - DevOps Platform: capabilities/devops-platform.md
+      - AI Platform: capabilities/ai-platform.md
+      - Networking Platform: capabilities/networking-platform.md

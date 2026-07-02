@@ -55,3 +55,6 @@ nav:
       - DevOps Platform: capabilities/devops-platform.md
       - AI Platform: capabilities/ai-platform.md
       - Networking Platform: capabilities/networking-platform.md
+
+  - Runbooks:
+      - Epson L4360 Printer Service: runbooks/epson-l4360-printer-service.md

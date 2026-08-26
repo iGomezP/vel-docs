@@ -35,9 +35,11 @@ nav:
     - Platform Capabilities: project/platform-capabilities.md
     - Platform Health: project/platform-health.md
     - Roadmap: project/roadmap.md
+    - Sprint 0.5 Review: project/sprint-0.5-review.md
 
   - Architecture:
       - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md
+      - ADR-0002 Project Management Platform: adr/adr-0002-project-management-platform.md
 
   - Research:
       - RFC-0001 Project Management Tools: research/rfc-0001-project-management-tools.md

@@ -51,17 +51,17 @@ The goal is to build a focused internal platform that supports the VEL engineeri
 
 Initial stack:
 
-| Area | Technology |
-| --- | --- |
-| Backend | .NET |
-| Frontend | React |
-| Database | PostgreSQL |
-| Cache | Redis |
-| Messaging | RabbitMQ |
-| Object Storage | MinIO |
-| Documentation | MkDocs |
-| Future AI services | Python |
-| Future CLI tooling | Go |
+| Area               | Technology                   |
+| ------------------ | ---------------------------- |
+| Backend            | .NET                         |
+| Frontend           | Next.js / React / TypeScript |
+| Database           | PostgreSQL                   |
+| Cache              | Redis                        |
+| Messaging          | RabbitMQ                     |
+| Object Storage     | MinIO                        |
+| Documentation      | MkDocs                       |
+| Future AI services | Python                       |
+| Future CLI tooling | Go                           |
 
 The first version will be a modular monolith.
 

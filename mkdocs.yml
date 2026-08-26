@@ -30,13 +30,13 @@ nav:
   - Home: index.md
 
   - Project:
-    - Engineering Standards: project/engineering-standards.md
-    - Engineering Principles: project/engineering-principles.md
-    - Platform Capabilities: project/platform-capabilities.md
-    - Platform Health: project/platform-health.md
-    - Roadmap: project/roadmap.md
-    - Sprint 0.5 Review: project/sprint-0.5-review.md
-    - Repository Catalog: project/repositories.md
+      - Engineering Standards: project/engineering-standards.md
+      - Engineering Principles: project/engineering-principles.md
+      - Platform Capabilities: project/platform-capabilities.md
+      - Platform Health: project/platform-health.md
+      - Roadmap: project/roadmap.md
+      - Sprint 0.5 Review: project/sprint-0.5-review.md
+      - Repository Catalog: project/repositories.md
 
   - Architecture:
       - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md
@@ -61,3 +61,8 @@ nav:
 
   - Runbooks:
       - Epson L4360 Printer Service: runbooks/epson-l4360-printer-service.md
+
+  - Engineering Journal:
+      - 2026-07-01: project/journal/2026-07-01.md
+      - VEL Inception: project/journal/2026-07-01-vel-inception.md
+      - 2026-08-26: project/journal/2026-08-26.md

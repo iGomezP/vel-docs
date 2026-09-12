@@ -39,6 +39,7 @@ nav:
       - Sprint 1 Review: project/sprint-1-review.md
       - Sprint 1 Retrospective: project/sprint-1-retrospective.md
       - Repository Catalog: project/repositories.md
+      - Sprint 2 Plan: project/sprint-2-plan.md
 
   - Architecture:
       - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md

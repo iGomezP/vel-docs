@@ -47,6 +47,7 @@ nav:
 
   - Research:
       - RFC-0001 Project Management Tools: research/rfc-0001-project-management-tools.md
+      - RFC-0002 VEL Workbench MCP Integration: research/rfc-0002-vel-workbench-mcp-integration.md
 
   - Capabilities:
       - Documentation Platform: capabilities/documentation-platform.md

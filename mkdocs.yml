@@ -40,6 +40,8 @@ nav:
       - Sprint 1 Retrospective: project/sprint-1-retrospective.md
       - Repository Catalog: project/repositories.md
       - Sprint 2 Plan: project/sprint-2-plan.md
+      - Sprint 2 Review: project/sprint-2-review.md
+      - Sprint 2 Retrospective: project/sprint-2-retrospective.md
 
   - Architecture:
       - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md
@@ -68,10 +70,11 @@ nav:
       - VS Code Remote-SSH and SELinux: runbooks/vscode-remote-ssh-selinux.md
 
   - Engineering Journal:
-      - 2026-07-01: project/journal/2026-07-01.md
+      - July 01, 2026: project/journal/2026-07-01.md
       - VEL Inception: project/journal/2026-07-01-vel-inception.md
-      - 2026-08-26: project/journal/2026-08-26.md
-      - 2026-09-02: project/journal/2026-09-02.md
-      - 2026-09-03: project/journal/2026-09-03.md
-      - 2026-09-11: project/journal/2026-09-11.md
-      - 2026-09-14: project/journal/2026-09-14.md
+      - August 26, 2026: project/journal/2026-08-26.md
+      - September 02, 2026: project/journal/2026-09-02.md
+      - September 03, 2026: project/journal/2026-09-03.md
+      - September 11, 2026: project/journal/2026-09-11.md
+      - September 12, 2026: project/journal/2026-09-12.md
+      - September 14, 2026: project/journal/2026-09-14.md

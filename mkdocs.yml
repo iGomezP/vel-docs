@@ -42,6 +42,7 @@ nav:
       - Sprint 2 Plan: project/sprint-2-plan.md
       - Sprint 2 Review: project/sprint-2-review.md
       - Sprint 2 Retrospective: project/sprint-2-retrospective.md
+      - Sprint 3 Plan: project/sprint-3-plan.md
 
   - Architecture:
       - ADR-0001 Docs as Code: adr/adr-0001-docs-as-code.md

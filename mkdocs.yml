@@ -69,6 +69,7 @@ nav:
   - Runbooks:
       - Epson L4360 Printer Service: runbooks/epson-l4360-printer-service.md
       - VS Code Remote-SSH and SELinux: runbooks/vscode-remote-ssh-selinux.md
+      - VEL Host Storage: runbooks/vel-host-storage.md
 
   - Engineering Journal:
       - July 01, 2026: project/journal/2026-07-01.md

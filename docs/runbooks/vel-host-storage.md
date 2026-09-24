@@ -217,3 +217,44 @@ Any service migration must be performed separately and must include:
 - Service restart.
 - Functional validation.
 - Recovery procedure.
+
+## MinIO Storage Migration
+
+MinIO persistent data was migrated from the Docker-managed volume:
+
+```text
+azure-lab_minio_data
+```
+
+to the dedicated VEL data volume:
+
+```text
+/srv/vel/data/minio
+```
+
+The container now uses a bind mount:
+
+```text
+/srv/vel/data/minio -> /data
+```
+
+Validation completed:
+
+- Existing MinIO metadata was preserved.
+- Existing buckets were preserved.
+- MinIO started successfully from the new storage location.
+- Liveness endpoint returned HTTP 200.
+- Readiness endpoint returned HTTP 200.
+- Container restart preserved the data and service availability.
+- A pre-migration copy exists under `/srv/vel/backups/minio/pre-ssd-migration`.
+- The original Docker volume remains available as a temporary rollback source.
+
+### SELinux Observation
+
+The Fedora host operates with SELinux in `Enforcing` mode.
+
+Docker is currently running without SELinux container labeling enabled. The Docker security configuration does not advertise SELinux support, and running containers do not receive process or mount labels.
+
+The MinIO bind mount therefore remains functional without Docker SELinux relabeling.
+
+Enabling Docker SELinux integration is intentionally deferred to a separate infrastructure change because it can affect all existing containers and requires dedicated regression testing.

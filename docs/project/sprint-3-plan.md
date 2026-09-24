@@ -212,6 +212,14 @@ rather than postponing testing until migration.
 - Plane data migration.
 - Advanced search and filtering.
 
+## VW-018 Progress — 2026-09-24
+
+Status: **In progress**. The first Chromium navigation smoke test is implemented and passing. Local execution, failure traces, and frontend run instructions are available; lint and production build validation passed.
+
+The current test uses the real development API. Deterministic HTTP fixtures, database-independent regression coverage, GitHub Actions execution, and the Plane acceptance-criteria and evidence review remain outstanding. The Phase 1 scope and Definition of Done are unchanged.
+
+See the [September 24 engineering journal](journal/2026-09-24.md) for implementation evidence and the next-session checklist.
+
 ## Next Steps
 
 1. Complete VW-018 and establish Playwright.
